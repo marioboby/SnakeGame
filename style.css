@@ -1,0 +1,27 @@
+
+*{
+    background-color: #35a435;
+}
+
+#gameTotal{
+    text-align: center;
+}
+
+#gameCanvas{
+    border: 3.5px solid #2e7d32;
+}
+
+#scoreText{
+    font-family: sans-serif , cursive;
+    font-size: 100px;
+}
+#resetBtn{
+    background-color: #2e7d32;
+    font-family: sans-serif , cursive;
+    font-size: 15px;
+    width: 70px;
+    height: 30px;
+    border: 3.1px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
