@@ -1,6 +1,6 @@
 
-*{
-    background-color: #35a435;
+body {
+    background: linear-gradient(90deg, #35a435, #1e5631);
 }
 
 #gameTotal{
@@ -8,20 +8,29 @@
 }
 
 #gameCanvas{
-    border: 3.5px solid #2e7d32;
+    border: 3px solid #2e7d32;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
-#scoreText{
-    font-family: sans-serif , cursive;
+#scoreText {
+    font-family: "sans-serif", cursive;
     font-size: 100px;
+    text-shadow: 2px 2px #363535;
 }
 #resetBtn{
-    background-color: #2e7d32;
-    font-family: sans-serif , cursive;
+    background-color: #4caf50;
+    font-family: "sans-serif" , cursive;
     font-size: 15px;
     width: 70px;
     height: 30px;
-    border: 3.1px solid;
+    border: 3px solid;
     border-radius: 15px;
     cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+#resetBtn:hover{
+    background-color: #388e3c;
+    transform: scale(1.1);
 }
