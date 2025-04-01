@@ -42,7 +42,7 @@ function nextTick(){
         moveSnake();
         drawSnake();
         checkGameOver();
-        setTimeout(nextTick, 75);
+        setTimeout(nextTick, 100);
     }
     else{
         displayGameOver();
